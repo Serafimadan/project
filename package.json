@@ -1,11 +1,6 @@
 {
   "name": "mern-e-commerce",
   "version": "1.0.0",
-  "repository": {
-    "private": true,
-    "type": "git",
-    "url": "https://github.com/HackYourFuture/class28-project.git"
-  },
   "description": "MERN shopping app",
   "main": "server.js",
   "type": "module",
