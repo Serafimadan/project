@@ -1,0 +1,46 @@
+{
+  "name": "mern-e-commerce",
+  "version": "1.0.0",
+  "repository": {
+    "private": true,
+    "type": "git",
+    "url": "https://github.com/HackYourFuture/class28-project.git"
+  },
+  "description": "MERN shopping app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mailchimp-api-v3": "^1.14.0",
+    "md5": "^2.3.0",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "puppeteer": "^5.5.0",
+    "react-zoom-pan-pinch": "^1.6.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}

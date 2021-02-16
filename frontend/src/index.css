@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.cookie-terms {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.cookie-policy-footer {
+  margin-left: 3px;
+}
+
+.cookie-policy-footer:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+/* img in cards */
+.card-img-top {
+  aspect-ratio: 1/1;
+  height: 15.8rem;
+}
+
+/* nav bar toggle */
+.navbar-toggle {
+  border: none;
+  margin: 0 auto;
+} 
+
+
+.sec-nav-container {
+  text-align: center;
+
+}
+.sec-nav-container i {
+margin: 10px;
+font-size: 16px;
+}
+
+
+
+.navbar-toggle i {
+
+  text-align: center;
+  color: #4bbf73;
+} 
+
+i {
+  margin-right: 5px;
+}
+
+/*secondary nav bar menu */
+.sec-nav-btn {
+  width: 100%;
+}
+
+/* HomeSlider */
+
+.home-slider-inner {
+  height: 700px;
+  width: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+}
+
+.slider-title {
+  margin-top: 10rem;
+  font-family: 'PT Serif', serif;
+  color: white;
+  font-size: 2.2rem;
+}
+
+.buy-art {
+  background-color: black;
+}
+
+/* jumbotron */
+.jumbotron-about-galileo {
+  text-align: center;
+}
+
+/* carousel */
+.carousel {
+  margin-top: 1vh;
+  margin-bottom: 8vh;
+}
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 span {
+  font-size: 1rem;
+  color: gray;
+}
+
+.carousel-caption h2 {
+  color: black;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+.modal-content {
+  text-align: center;
+}
+
+.cookie-form {
+  margin: 20px 10px 20px;
+  text-align: justify;
+}
+
+.cookie-form button {
+  justify-content: center;
+  width: 100%;
+}
+
+.cookie-footer {
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.carousel-caption h2 {
+  color: black;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+}
+
+.carousel a {
+  margin: 0 auto;
+}
+
+.subscribe {
+  width: 40%;
+  min-width: 320px;
+  margin: auto;
+  margin-top: 6vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribe h3 {
+  text-align: center;
+}
+
+.subscription-error {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+/*notifications number*/
+.notifications-num_container {
+  background-color: red;
+  border: 1.2px solid white;
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  right: 11px;
+  bottom: 24px;
+}
+.notifications-num {
+  display: inline-block;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-size: 11px
+}
+.relative {
+  position: relative;
+}
+
+.autocomplete-box {
+  background-color: #ffffff;
+  position: absolute;
+  right: 0;
+  top: 3rem;
+  width: 70%;
+  z-index: 100;
+}
+
+.autocomplete-box ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.autocomplete-item {
+  list-style: none;
+  text-align: left;
+  margin: 0 auto;
+  padding: 1rem;
+  min-height: 3rem;
+}
+
+.autocomplete-item:hover {
+  background-color: #ececec;
+  cursor: pointer;
+}
+
+/* filter */
+select.filter-select.form-control:focus {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(255 255 255 / 25%);
+}
+select.filter-select.form-control {
+  height: calc(1.5em + 1.5rem + 0px);
+  line-height: 1.5;
+  color: #000000;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0px solid #ffffff;
+  border-radius: 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-size: 0.765625rem;
+  text-transform: uppercase;
+  font-weight: 600;  
+  display: block;
+  padding: 0.6em 1.4em 0.5em 0.8em;
+  max-width: 100%;
+  margin: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%2355595c%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E);
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+  cursor: pointer;
+}
+
+select .filter-select .form-control:hover{
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.filter-price-name {
+  font-size: 0.765625rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: underline;
+  padding: 0 20px;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+/* media for pictures items */
+
+@media (min-width: 992px) {
+  .sec-nav-container i {
+    display: none;
+    }
+    
+}
+
+
+
+@media (min-width: 575px) {
+  .nav-hide{
+    display: none;
+
+  }}
+
+@media (max-width: 574px) {
+  .galileo-src-btn{
+    width: 100%;
+
+  }
+
+  .galileo-src-form{
+    margin-top: 10px;
+
+  }
+
+  .notification-cart-login-container, .filter-sort-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 574px) {
+  .nav-item {
+    margin-right: 0;
+  }
+
+
+}
+
+
+@media (max-width: 767px) {
+  .card-img-top {
+    aspect-ratio: 1/1;
+    height: 25.8rem;
+  }
+}
+
+/* category screens */
+.category-h1,
+.category-p {
+  text-align: center;
+}
