@@ -37,8 +37,6 @@ export const listProducts = (
   minPrice = 0,
   maxPrice = Infinity,
   style = '',
-  subject = '',
-  medium = '',
   sorts = ''
 ) => async (dispatch) => {
   try {
